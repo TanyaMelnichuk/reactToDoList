@@ -1,0 +1,10 @@
+.search-panel {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-panel input {
+    padding: 5px 20px;
+}
