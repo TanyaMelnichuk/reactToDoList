@@ -1,11 +1,10 @@
 import React from 'react';
-import ItemStatusFilter from './components/item-status-filter';
-
 import './search-panel.css'
+import ItemStatusFilter from "../item-status-filter";
 
 const SearchPanel = () => {
     return (
-        <div className='search-panel'>
+        <div className='form-panel'>
             <input type="text" placeholder="search" />
             <ItemStatusFilter />
         </div>
